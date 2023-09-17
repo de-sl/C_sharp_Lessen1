@@ -2,7 +2,11 @@
 Console.WriteLine("Input your number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int res = 1;
-while (res <= num){
-    Console.Write($"{res} ");
-    res++;
-}
+
+for(int i = res; i <= num; i++)
+    Console.Write($"{i} ");
+// Решение через while
+// while (res <= num){
+//     Console.Write($"{res} ");
+//     res++;
+// }
